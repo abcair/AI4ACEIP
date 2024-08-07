@@ -3,7 +3,7 @@ Hypertension, a widespread chronic condition and a key contributor to cardiovasc
 ## How to predict ACEIP? <br>
 1. download the source code and model at https://github.com/abcair/AI4ACEIP.git by command git clone https://github.com/abcair/AI4ACEIP.git <br>
 2. create a Python running environment  <br>
-   >  (1) please install conda soft   <br>
+   >  (1) please install conda soft, see https://docs.anaconda.com/miniconda/ for how to install conda   <br>
    > (2) create running environment by conda create -y -n AI4ACEIP python=3.9  <br>
    > (3) install the dependent library by pip install -r requirements.txt <br>
 3. put your fasta format sequence data at demo.fa file <br>

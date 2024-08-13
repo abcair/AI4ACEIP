@@ -173,10 +173,12 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--fasta_path")
     parser.add_argument("--save_path")
+    parser.add_argument("--threshold")
 
     args = parser.parse_args()
     fasta_path = args.fasta_path
     save_path = args.save_path
+    threshold = args.threshold
 
     fsave = open(save_path,'w')
 
@@ -213,7 +215,7 @@ if __name__ == '__main__':
         fsave.flush()
 
 '''
-python infer_AI4ACEIP.py --fasta_path seq.fa --save_path ./res.txt
+python infer_AI4ACEIP.py --fasta_path seq.fa --threshold 0.5 --save_path ./res.txt
 '''
 
 

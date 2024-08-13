@@ -11,5 +11,5 @@ Hypertension, a widespread chronic condition and a key contributor to cardiovasc
 2. running the command by `python train_run.py` <br>
 ### Predicting ACEIP by peptide sequences <br>
 1. put your fasta format sequence data in `demo.fa` file <br>
-2. run the python command by `python infer_AI4ACEIP.py --fasta_path seq.fa --save_path ./res.txt`, and the predicting results will save to `res.txt` file <br>
+2. run the python command by `python infer_AI4ACEIP.py --fasta_path seq.fa --threshold 0.5 --save_path ./res.txt`, and the predicting results will save to `res.txt` file <br>
 <br>
